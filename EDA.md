@@ -1,3 +1,5 @@
+# Capture price changes on [Tiki](https://tiki.vn/) and [Shopee](https://shopee.vn/) retail website application with Github Workflow.
+
 ## Code to Check Schema
 ```python
 type(result['responseBody']) == str
