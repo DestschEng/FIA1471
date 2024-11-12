@@ -1,6 +1,6 @@
 Call the Shopee API to get the JSON data: https://shopee.vn/api/v4/item/get?itemid=5873954476&shopid=88201679
 
-```json
+```json{
 {'bff_meta': None,
  'error': None,
  'error_msg': None,
@@ -1856,4 +1856,5 @@ Call the Shopee API to get the JSON data: https://shopee.vn/api/v4/item/get?item
   'price_breakdown': None,
   'membership_exclusive': None,
   'membership_exclusive_teaser': None}}
+ }
 ```
