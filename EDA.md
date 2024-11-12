@@ -14,6 +14,12 @@ dict_keys(['item', 'account', 'product_images', 'product_price', 'flash_sale', '
 
 ## Product Detail
 ```python
+X['data']['item'].keys()
+```
+
+```dict_keys(['item_id', 'shop_id', 'item_status', 'status', 'item_type', 'reference_item_id', 'title', 'image', 'label_ids', 'is_adult', 'is_preview', 'flag', 'is_service_by_shopee', 'condition', 'cat_id', 'has_low_fulfillment_rate', 'is_live_streaming_price', 'currency', 'brand', 'brand_id', 'show_discount', 'ctime', 'item_rating', 'cb_option', 'has_model_with_available_shopee_stock', 'shop_location', 'attributes', 'rich_text_description', 'invoice_option', 'is_category_failed', 'is_prescription_item', 'preview_info', 'show_prescription_feed', 'is_alcohol_product', 'is_infant_milk_formula_product', 'is_unavailable', 'is_partial_fulfilled', 'is_presale', 'is_presale_deposit_item', 'is_presale_deposit_made', 'description', 'categories', 'fe_categories', 'item_has_video', 'presale_dday_start_time', 'is_lowest_price_at_shopee', 'models', 'tier_variations', 'size_chart', 'size_chart_info', 'welcome_package_type', 'is_free_gift', 'deep_discount', 'is_low_price_eligible', 'bundle_deal_info', 'add_on_deal_info', 'shipping_icon_type', 'badge_icon_type', 'spl_info', 'estimated_days', 'is_pre_order', 'is_free_shipping', 'overall_purchase_limit', 'min_purchase_limit', 'is_hide_stock', 'stock', 'normal_stock', 'current_promotion_reserved_stock', 'can_use_wholesale', 'wholesale_tier_list', 'price', 'raw_discount', 'hidden_price_display', 'price_min', 'price_max', 'price_before_discount', 'price_min_before_discount', 'price_max_before_discount', 'other_stock', 'discount_stock', 'current_promotion_has_reserve_stock', 'complaint_policy', 'show_recycling_info', 'should_show_amp_tag', 'all_models_has_pre_order', 'is_item_inherited', 'max_quantity'])```
+
+```python
 X['data']['item']
 ```
 - OUTPUT
