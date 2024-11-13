@@ -1630,5 +1630,6 @@ dict_keys(['id', 'master_id', 'sku', 'name', 'url_key', 'url_path', 'short_url',
   "return_and_exchange_policy": "",
   "is_tier_pricing_available": false,
   "is_tier_pricing_eligible": false
+  } 
 }
-}```
+```
