@@ -1,5 +1,6 @@
 # Capture price changes on [Tiki](https://tiki.vn/) and [Shopee](https://shopee.vn/) retail website application with Github Workflow.
 
+# [Shopee](https://shopee.vn/)
 ## Code to Check Schema
 ```python
 type(result['responseBody']) == str
@@ -1491,3 +1492,143 @@ X['data']['product_review']
  'hide_other_product_reviews_in_shop': False}
 }
 ```
+
+# [Tiki](https://tiki.vn/)
+
+### Keys of the data Attribute
+```
+dict_keys(['id', 'master_id', 'sku', 'name', 'url_key', 'url_path', 'short_url', 'type', 'book_cover', 'short_description', 'price', 'list_price', 'original_price', 'badges', 'badges_new', 'badges_v3', 'tracking_info', 'discount', 'discount_rate', 'rating_average', 'review_count', 'review_text', 'favourite_count', 'thumbnail_url', 'has_ebook', 'inventory_status', 'inventory_type', 'productset_group_name', 'is_fresh', 'seller', 'is_flower', 'is_gift_card', 'salable_type', 'data_version', 'day_ago_created', 'meta_title', 'meta_description', 'meta_keywords', 'is_baby_milk', 'is_acoholic_drink', 'description', 'images', 'warranty_policy', 'brand', 'current_seller', 'other_sellers', 'specifications', 'product_links', 'gift_item_title', 'services_and_promotions', 'promitions', 'breadcrumbs', 'installment_info_v2', 'is_seller_in_chat_whitelist', 'inventory', 'warranty_info', 'return_and_exchange_policy', 'is_tier_pricing_available', 'is_tier_pricing_eligible'])
+```
+
+```json{
+{
+  "id": 197216291,
+  "master_id": 197216291,
+  "sku": "7801946163627",
+  "name": "Apple iPhone 14 Pro Max",
+  "url_key": "apple-iphone-14-pro-max-p197216291",
+  "url_path": "apple-iphone-14-pro-max-p197216291.html",
+  "short_url": "https://tiki.vn/product-p197216291.html",
+  "type": "configurable",
+  "book_cover": null,
+  "short_description": "N\u1ed9i dung qu\u1ea3ng c\u00e1oiPhone 14 Pro Max. B\u1eaft tr\u1ecdn chi ti\u1ebft \u1ea5n t\u01b0\u1ee3ng v\u1edbi Camera Ch\u00ednh 48MP. Tr\u1ea3i nghi\u1ec7m iPhone theo c\u00e1ch ho\u00e0n to\u00e0n m\u1edbi v\u1edbi Dynamic Island v\u00e0 m\u00e0n h\u00ecnh Lu\u00f4n B\u1eadt. C\u00f4ng ngh\u1ec7 an to\u00e0n quan tr\u1ecdng...",
+  "price": 33990000,
+  "list_price": 33990000,
+  "original_price": 33990000,
+  "badges": [
+    {
+      "code": "new_pdp",
+      "text": "v1"
+    }
+  ],
+  "badges_new": [],
+  "badges_v3": null,
+  "tracking_info": null,
+  "discount": 0,
+  "discount_rate": 0,
+  "rating_average": 5,
+  "review_count": 530,
+  "review_text": "(530)",
+  "favourite_count": 0,
+  "thumbnail_url": "https://salt.tikicdn.com/cache/280x280/ts/product/bd/a7/16/9db5aa36a8aaed4722e32786ea7d7597.jpg",
+  "has_ebook": false,
+  "inventory_status": "out_of_stock",
+  "inventory_type": "discontinued",
+  "productset_group_name": "",
+  "is_fresh": false,
+  "seller": null,
+  "is_flower": false,
+  "is_gift_card": false,
+  "salable_type": null,
+  "data_version": 3300,
+  "day_ago_created": 797,
+  "meta_title": "",
+  "meta_description": "",
+  "meta_keywords": "",
+  "is_baby_milk": false,
+  "is_acoholic_drink": false,
+  "description": "<h5>N\u1ed9i dung qu\u1ea3ng c\u00e1o</h5>\n<p>iPhone 14 Pro Max. B\u1eaft tr\u1ecdn chi ti\u1ebft \u1ea5n t\u01b0\u1ee3ng v\u1edbi Camera Ch\u00ednh 48MP. Tr\u1ea3i nghi\u1ec7m iPhone theo c\u00e1ch ho\u00e0n to\u00e0n m\u1edbi v\u1edbi Dynamic Island v\u00e0 m\u00e0n h\u00ecnh Lu\u00f4n B\u1eadt. C\u00f4ng ngh\u1ec7 an to\u00e0n quan tr\u1ecdng \u2013 Ph\u00e1t Hi\u1ec7n Va Ch\u1ea1m<sup>1</sup> thay b\u1ea1n g\u1ecdi tr\u1ee3 gi\u00fap khi c\u1ea7n k\u00edp</p>\n<h5>T\u00ednh n\u0103ng n\u1ed5i b\u1eadt</h5>\n<ul><li>M\u00e0n h\u00ecnh Super Retina XDR 6,7 inch<sup>2</sup> v\u1edbi t\u00ednh n\u0103ng Lu\u00f4n B\u1eadt v\u00e0 ProMotion</li>\n<li>Dynamic Island, m\u1ed9t c\u00e1ch m\u1edbi tuy\u1ec7t di\u1ec7u \u0111\u1ec3 t\u01b0\u01a1ng t\u00e1c v\u1edbi iPhone</li>\n<li>Camera Ch\u00ednh 48MP cho \u0111\u1ed9 ph\u00e2n gi\u1ea3i g\u1ea5p 4 l\u1ea7n</li>\n<li>Ch\u1ebf \u0111\u1ed9 \u0110i\u1ec7n \u1ea2nh nay \u0111\u00e3 h\u1ed7 tr\u1ee3 4K Dolby Vision t\u1ed1c \u0111\u1ed9 l\u00ean \u0111\u1ebfn 30 fps</li>\n<li>Ch\u1ebf \u0111\u1ed9 H\u00e0nh \u0110\u1ed9ng \u0111\u1ec3 quay video c\u1ea7m tay m\u01b0\u1ee3t m\u00e0, \u1ed5n \u0111\u1ecbnh</li>\n<li>C\u00f4ng ngh\u1ec7 an to\u00e0n quan tr\u1ecdng \u2013 Ph\u00e1t Hi\u1ec7n Va Ch\u1ea1m<sup>1</sup> thay b\u1ea1n g\u1ecdi tr\u1ee3 gi\u00fap khi c\u1ea7n k\u00edp</li>\n<li>Th\u1eddi l\u01b0\u1ee3ng pin c\u1ea3 ng\u00e0y v\u00e0 th\u1eddi gian xem video l\u00ean \u0111\u1ebfn 29 gi\u1edd<sup>3</sup></li>\n<li>A16 Bionic, chip \u0111i\u1ec7n tho\u1ea1i th\u00f4ng minh tuy\u1ec7t \u0111\u1ec9nh. M\u1ea1ng di \u0111\u1ed9ng 5G si\u00eau nhanh<sup>4</sup></li>\n<li>C\u00e1c t\u00ednh n\u0103ng v\u1ec1 \u0111\u1ed9 b\u1ec1n d\u1eabn \u0111\u1ea7u nh\u01b0 Ceramic Shield v\u00e0 kh\u1ea3 n\u0103ng ch\u1ed1ng n\u01b0\u1edbc<sup>5</sup></li>\n<li>iOS 16 \u0111em \u0111\u1ebfn th\u00eam nhi\u1ec1u c\u00e1ch \u0111\u1ec3 c\u00e1 nh\u00e2n h\u00f3a, giao ti\u1ebfp v\u00e0 chia s\u1ebb<sup>6</sup></li>\n</ul><h5>Ph\u00e1p l\u00fd</h5>\n<p><sup>1</sup>SOS Kh\u1ea9n C\u1ea5p s\u1eed d\u1ee5ng k\u1ebft n\u1ed1i m\u1ea1ng di \u0111\u1ed9ng ho\u1eb7c Cu\u1ed9c G\u1ecdi Wi-Fi.<br /><sup>2</sup>M\u00e0n h\u00ecnh c\u00f3 c\u00e1c g\u00f3c bo tr\u00f2n. Khi t\u00ednh theo h\u00ecnh ch\u1eef nh\u1eadt, k\u00edch th\u01b0\u1edbc m\u00e0n h\u00ecnh theo \u0111\u01b0\u1eddng ch\u00e9o l\u00e0 6,69 inch. Di\u1ec7n t\u00edch hi\u1ec3n th\u1ecb th\u1ef1c t\u1ebf nh\u1ecf h\u01a1n. <br /><sup>3</sup>Th\u1eddi l\u01b0\u1ee3ng pin kh\u00e1c nhau t\u00f9y theo c\u00e1ch s\u1eed d\u1ee5ng v\u00e0 c\u1ea5u h\u00ecnh; truy c\u1eadp apple.com/batteries \u0111\u1ec3 bi\u1ebft th\u00eam th\u00f4ng tin.<br /><sup>4</sup>C\u1ea7n c\u00f3 g\u00f3i c\u01b0\u1edbc d\u1eef li\u1ec7u. M\u1ea1ng 5G ch\u1ec9 kh\u1ea3 d\u1ee5ng \u1edf m\u1ed9t s\u1ed1 th\u1ecb tr\u01b0\u1eddng v\u00e0 \u0111\u01b0\u1ee3c cung c\u1ea5p qua m\u1ed9t s\u1ed1 nh\u00e0 m\u1ea1ng. T\u1ed1c \u0111\u1ed9 c\u00f3 th\u1ec3 thay \u0111\u1ed5i t\u00f9y \u0111\u1ecba \u0111i\u1ec3m v\u00e0 nh\u00e0 m\u1ea1ng. \u0110\u1ec3 bi\u1ebft th\u00f4ng tin v\u1ec1 h\u1ed7 tr\u1ee3 m\u1ea1ng 5G, vui l\u00f2ng li\u00ean h\u1ec7 nh\u00e0 m\u1ea1ng v\u00e0 truy c\u1eadp apple.com/iphone/cellular.<br /><sup>5</sup>iPhone 14 Pro Max c\u00f3 kh\u1ea3 n\u0103ng ch\u1ed1ng tia n\u01b0\u1edbc, ch\u1ed1ng n\u01b0\u1edbc v\u00e0 ch\u1ed1ng b\u1ee5i. S\u1ea3n ph\u1ea9m \u0111\u00e3 qua ki\u1ec3m nghi\u1ec7m trong \u0111i\u1ec1u ki\u1ec7n ph\u00f2ng th\u00ed nghi\u1ec7m c\u00f3 ki\u1ec3m so\u00e1t \u0111\u1ea1t m\u1ee9c IP68 theo ti\u00eau chu\u1ea9n IEC 60529 (ch\u1ed1ng n\u01b0\u1edbc \u1edf \u0111\u1ed9 s\u00e2u t\u1ed1i \u0111a 6 m\u00e9t trong v\u00f2ng t\u1ed1i \u0111a 30 ph\u00fat). Kh\u1ea3 n\u0103ng ch\u1ed1ng tia n\u01b0\u1edbc, ch\u1ed1ng n\u01b0\u1edbc v\u00e0 ch\u1ed1ng b\u1ee5i kh\u00f4ng ph\u1ea3i l\u00e0 c\u00e1c \u0111i\u1ec1u ki\u1ec7n v\u0129nh vi\u1ec5n. Kh\u1ea3 n\u0103ng n\u00e0y c\u00f3 th\u1ec3 gi\u1ea3m do hao m\u00f2n th\u00f4ng th\u01b0\u1eddng. Kh\u00f4ng s\u1ea1c pin khi iPhone \u0111ang b\u1ecb \u01b0\u1edbt. Vui l\u00f2ng tham kh\u1ea3o h\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng \u0111\u1ec3 bi\u1ebft c\u00e1ch lau s\u1ea1ch v\u00e0 l\u00e0m kh\u00f4 m\u00e1y. Kh\u00f4ng b\u1ea3o h\u00e0nh s\u1ea3n ph\u1ea9m b\u1ecb h\u1ecfng do th\u1ea5m ch\u1ea5t l\u1ecfng. <br /><sup>6</sup>M\u1ed9t s\u1ed1 t\u00ednh n\u0103ng kh\u00f4ng kh\u1ea3 d\u1ee5ng t\u1ea1i m\u1ed9t s\u1ed1 qu\u1ed1c gia ho\u1eb7c khu v\u1ef1c.</p>\n<h5>Th\u00f4ng s\u1ed1 k\u1ef9 thu\u1eadt</h5>\n<p>Truy c\u1eadp <a href=\"apple.com/iphone/compare\">apple.com/iphone/compare</a></p><p>Gi\u00e1 s\u1ea3n ph\u1ea9m tr\u00ean Tiki \u0111\u00e3 bao g\u1ed3m thu\u1ebf theo lu\u1eadt hi\u1ec7n h\u00e0nh. B\u00ean c\u1ea1nh \u0111\u00f3, tu\u1ef3 v\u00e0o lo\u1ea1i s\u1ea3n ph\u1ea9m, h\u00ecnh th\u1ee9c v\u00e0 \u0111\u1ecba ch\u1ec9 giao h\u00e0ng m\u00e0 c\u00f3 th\u1ec3 ph\u00e1t sinh th\u00eam chi ph\u00ed kh\u00e1c nh\u01b0 ph\u00ed v\u1eadn chuy\u1ec3n, ph\u1ee5 ph\u00ed h\u00e0ng c\u1ed3ng k\u1ec1nh, thu\u1ebf nh\u1eadp kh\u1ea9u (\u0111\u1ed1i v\u1edbi \u0111\u01a1n h\u00e0ng giao t\u1eeb n\u01b0\u1edbc ngo\u00e0i c\u00f3 gi\u00e1 tr\u1ecb tr\u00ean 1 tri\u1ec7u \u0111\u1ed3ng).....</p>",
+  "images": [
+    {
+      "base_url": "https://salt.tikicdn.com/media/catalog/producttmp/bd/a7/16/fe61abc4b0e0aa771102c62aa518a352.jpg",
+      "is_gallery": true,
+      "label": null,
+      "large_url": "https://salt.tikicdn.com/cache/w1200/media/catalog/producttmp/bd/a7/16/fe61abc4b0e0aa771102c62aa518a352.jpg",
+      "medium_url": "https://salt.tikicdn.com/cache/w300/media/catalog/producttmp/bd/a7/16/fe61abc4b0e0aa771102c62aa518a352.jpg",
+      "position": null,
+      "small_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/bd/a7/16/fe61abc4b0e0aa771102c62aa518a352.jpg",
+      "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/bd/a7/16/fe61abc4b0e0aa771102c62aa518a352.jpg"
+    },
+    {
+      "base_url": "https://salt.tikicdn.com/media/catalog/producttmp/45/91/98/50487bfa5ac7cbece3259530314b214c.jpg",
+      "is_gallery": true,
+      "label": null,
+      "large_url": "https://salt.tikicdn.com/cache/w1200/media/catalog/producttmp/45/91/98/50487bfa5ac7cbece3259530314b214c.jpg",
+      "medium_url": "https://salt.tikicdn.com/cache/w300/media/catalog/producttmp/45/91/98/50487bfa5ac7cbece3259530314b214c.jpg",
+      "position": null,
+      "small_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/45/91/98/50487bfa5ac7cbece3259530314b214c.jpg",
+      "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/45/91/98/50487bfa5ac7cbece3259530314b214c.jpg"
+    },
+    {
+      "base_url": "https://salt.tikicdn.com/media/catalog/producttmp/c4/b2/89/9559399c53ba69b63ff4a157edaf9757.jpg",
+      "is_gallery": true,
+      "label": null,
+      "large_url": "https://salt.tikicdn.com/cache/w1200/media/catalog/producttmp/c4/b2/89/9559399c53ba69b63ff4a157edaf9757.jpg",
+      "medium_url": "https://salt.tikicdn.com/cache/w300/media/catalog/producttmp/c4/b2/89/9559399c53ba69b63ff4a157edaf9757.jpg",
+      "position": null,
+      "small_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/c4/b2/89/9559399c53ba69b63ff4a157edaf9757.jpg",
+      "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/c4/b2/89/9559399c53ba69b63ff4a157edaf9757.jpg"
+    },
+    {
+      "base_url": "https://salt.tikicdn.com/media/catalog/producttmp/ea/2d/4a/1d4009d95ed56702dce4ddb727e0b790.jpg",
+      "is_gallery": true,
+      "label": null,
+      "large_url": "https://salt.tikicdn.com/cache/w1200/media/catalog/producttmp/ea/2d/4a/1d4009d95ed56702dce4ddb727e0b790.jpg",
+      "medium_url": "https://salt.tikicdn.com/cache/w300/media/catalog/producttmp/ea/2d/4a/1d4009d95ed56702dce4ddb727e0b790.jpg",
+      "position": null,
+      "small_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/ea/2d/4a/1d4009d95ed56702dce4ddb727e0b790.jpg",
+      "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/media/catalog/producttmp/ea/2d/4a/1d4009d95ed56702dce4ddb727e0b790.jpg"
+    }
+  ],
+  "warranty_policy": null,
+  "brand": {
+    "id": 17827,
+    "name": "Apple",
+    "slug": "apple"
+  },
+  "current_seller": null,
+  "other_sellers": [],
+  "specifications": [],
+  "product_links": [],
+  "gift_item_title": "",
+  "services_and_promotions": [],
+  "promitions": [],
+  "breadcrumbs": [
+    {
+      "url": "/dien-thoai-may-tinh-bang/c1789",
+      "name": "\u0110i\u1ec7n Tho\u1ea1i - M\u00e1y T\u00ednh B\u1ea3ng",
+      "category_id": 1789
+    },
+    {
+      "url": "/dien-thoai-smartphone/c1795",
+      "name": "\u0110i\u1ec7n tho\u1ea1i Smartphone",
+      "category_id": 1795
+    },
+    {
+      "url": "https://tiki.vn/apple-iphone-14-pro-max-p197216291.html",
+      "name": "Apple iPhone 14 Pro Max",
+      "category_id": 0
+    }
+  ],
+  "installment_info_v2": null,
+  "is_seller_in_chat_whitelist": false,
+  "inventory": {
+    "product_virtual_type": null,
+    "fulfillment_type": "tiki_delivery"
+  },
+  "warranty_info": null,
+  "return_and_exchange_policy": "",
+  "is_tier_pricing_available": false,
+  "is_tier_pricing_eligible": false
+}
+}```
